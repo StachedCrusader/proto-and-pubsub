@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Proto\Proto.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Proto\obj\Debug\net8.0\Protospec.cs">
+      <Link>Generated\Protospec.cs</Link>
+    </Compile>
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
